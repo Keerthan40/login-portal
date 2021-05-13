@@ -1,0 +1,68 @@
+<!DOCTYPE html>   
+<html>   
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>  
+<title> Login Page </title>  
+<style>   
+body {  
+  text-align:center;
+  font-family:'Times New Roman', serif, sans-serif;  
+  background-color: white;  
+}
+button {   
+       background-color: #777577;   
+       width: 20%;  
+        color: black;   
+        padding: 15px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
+         }   
+ form {   
+        border: 3px solid #f1f1f1;   
+    }   
+ input[type=text], input[type=password] {   
+        width: 40%;   
+        margin: 8px 0;  
+        padding: 12px 20px;   
+        display:inline block;   
+        border: 2px solid black;   
+    }  
+ button:hover {   
+        opacity: 1;   
+    }     
+ .container {
+        text-align:center;
+        width:50%;
+        padding: auto;
+        margin:auto;   
+        background-color: lightgrey;
+    }   
+</style>   
+</head>    
+<body>
+    <h1>Welcome to E-CELL</h1>
+        <img src="E-CELL.png" width="259" alt="E-CELL IITH" align="left" >
+        <img src="IITH.jpg"  width="100" alt="IITH LOGO" align="right" >
+        <br><br><br><br><br>
+        <h2>Enter your login credentials</h2>   
+    <form>  
+        <div class="container">   
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required> 
+            <br>
+            <br> 
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required> 
+            <br><br>
+            <button type="submit">Login</button>   
+            <br><br> 
+            <input type="checkbox" checked="checked"> Remember me 
+            <br><br>
+            <a href="#"> Forgot password? </a>    
+        </div>   
+    </form> 
+</body>     
+</html>  
